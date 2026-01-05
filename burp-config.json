@@ -1,0 +1,12 @@
+{
+  "proxy": {
+    "request_listeners": [
+      {
+        "certificate_mode": "per host",
+        "listen_mode": "all_interfaces",
+        "listener_port": 8082,
+        "running": true
+      }
+    ]
+  }
+}

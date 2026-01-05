@@ -17,3 +17,7 @@ python3 ios_burp_setup.py "Your Wi-Fi SSID"
 
 - The script hosts the profile on port `8000` and configures the proxy to `8082`.
 - If your laptop firewall blocks inbound connections, temporarily disable it or allow incoming connections so your iOS device can reach the download page and proxy server.
+- Optional: add a convenience alias for launching Burp with the config file:
+  ```bash
+  alias burp='java -jar /opt/burp/burpsuite_community.jar --config-file=""'
+  ```
